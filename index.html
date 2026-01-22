@@ -22,11 +22,11 @@
     <header class="header">
         <div class="container header-container">
             <a href="#" class="logo">
-                <img src="logo.png" alt="Acceleron" class="logo-img">
+                <img src="logo_large.png" alt="Acceleron" class="logo-img">
             </a>
             <nav class="nav">
                 <a href="#services" class="nav-link">Services</a>
-                <a href="#who-this-is-for" class="nav-link">Fit</a>
+                <a href="#about" class="nav-link">About</a>
                 <a href="#contact" class="btn btn-sm">Contact</a>
             </nav>
         </div>
@@ -36,11 +36,11 @@
         <!-- Hero Section -->
         <section id="hero" class="hero">
             <div class="container hero-content">
-                <h1 class="hero-title reveal">Positioning that moves markets</h1>
+                <h1 class="hero-title reveal">Positioning that <span class="text-gradient">moves markets</span></h1>
                 <p class="hero-subtitle reveal delay-100">Narrative strategy for Web3 and AI founders who need to cut
                     through the noise</p>
                 <div class="hero-actions reveal delay-200">
-                    <a href="#contact" class="btn btn-primary">Let's talk</a>
+                    <a href="#contact" class="btn btn-primary btn-hero">Let's talk <span class="arrow">→</span></a>
                 </div>
             </div>
             <canvas id="hero-canvas" class="hero-canvas"></canvas>
@@ -58,10 +58,42 @@
             </div>
         </section>
 
+        <!-- About Section (Why Acceleron) -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title reveal">Why Acceleron</h2>
+                <div class="about-grid">
+                    <div class="about-content reveal delay-100">
+                        <p class="about-lead">Acceleron is a solo narrative strategy practice focused exclusively on
+                            Web3 and AI.</p>
+                        <p>I've spent almost a decade in this space trading, building an audience, studying narratives,
+                            and understanding what drives attention.</p>
+                        <p>You work directly with me. Strategic positioning work informed by a decade of pattern
+                            recognition across hundreds of technical narratives.</p>
+                        <p class="about-note">I operate anonymously with selective network access to top tier founders,
+                            investors, and builders. This gives me insight into what's actually working in positioning
+                            in the market.</p>
+                    </div>
+                    <div class="about-credentials reveal delay-200">
+                        <div class="credentials-card">
+                            <ul class="credentials-list">
+                                <li><span class="icon">✓</span> 8 years in crypto</li>
+                                <li><span class="icon">✓</span> Large audience of high value builders, traders and
+                                    investors</li>
+                                <li><span class="icon">✓</span> Anonymous operator with founder network access</li>
+                                <li><span class="icon">✓</span> Specialized in technical narrative strategy</li>
+                                <li><span class="icon">✓</span> Direct access. No account managers or junior teams</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Services Section -->
         <section id="services" class="section services">
             <div class="container">
-                <h2 class="section-title reveal">What we do</h2>
+                <h2 class="section-title reveal">Services</h2>
                 <div class="grid-3">
                     <div class="card service-card reveal delay-100">
                         <div class="icon-box">
@@ -139,8 +171,8 @@
                         </div>
                         <h3>Content Strategy</h3>
                         <p>Technical complexity is your moat, not your marketing problem. We translate what you're
-                            building—whether it's protocol infrastructure, developer platforms, or novel technical
-                            architectures—into narratives that drive adoption, funding, and mindshare.</p>
+                            building into narratives that drive adoption, funding, and mindshare without dumbing down
+                            the substance.</p>
                     </div>
                 </div>
             </div>
@@ -187,9 +219,11 @@
         <section id="contact" class="section contact">
             <div class="container contact-container">
                 <h2 class="section-title reveal">Let's talk positioning</h2>
-                <p class="form-intro reveal delay-100">If
-                    you're building something technical in Web3 or AI and need positioning that reflects the depth of
-                    your work, reach out.</p>
+                <p class="form-intro reveal delay-100">Currently selective with clients and new projects. But I'm always
+                    looking for technical founders in crypto or AI who are building something that matters and need
+                    positioning that reflects it.</p>
+                <p class="form-intro reveal delay-100">If that's you, reach out. I typically respond within 24 hours.
+                </p>
                 <form id="contactForm" class="contact-form reveal delay-200">
                     <div class="form-group">
                         <label for="name">Name</label>
@@ -209,7 +243,8 @@
                             placeholder="Tell us about your project..."></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary btn-block">Send message</button>
-                    <p class="form-note">We respond within 24 hours. No spam, ever.</p>
+                    <p class="form-note">No spam. No sales calls. Just a conversation about whether this makes sense.
+                    </p>
                 </form>
             </div>
         </section>
